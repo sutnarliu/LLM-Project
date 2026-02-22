@@ -1,0 +1,40 @@
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境（你的mini_change环境）
+D:/Anaconda/envs/mini_change/
+Anaconda/
+envs/
+
+# 模型文件（太大了，不上传）
+models/base_models/       # 基础模型（几十GB）
+models/lora_models/*.safetensors
+models/*.safetensors
+*.bin
+*.safetensors
+
+# Hugging Face缓存
+.cache/
+.cache/huggingface/
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志和临时文件
+logs/
+*.log
+*.tmp
+.DS_Store
+
+# 训练输出
+outputs/
+checkpoints/
+
+# 环境变量（如果有）
+.env
